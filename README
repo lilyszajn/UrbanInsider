@@ -1,0 +1,26 @@
+tip.rb TO DO
+# TODO:
+  # add properties for lat and long X
+  # make sure they come in in the form (via js?)
+  # make sure the sinatra action saves that data in the object
+  
+  # then, in the client/i.e. template/i.e. javascript
+  # use the data coming back from $.getJSON
+  # to make a series of map calls
+
+urban_insider.rb TO DO
+# TODO:
+# write a Tip class (similar to User class) X
+# define the attributes of a tip in that class X
+# create a new_tip.erb template X
+# create a form so the user can enter those tip attributes (action and method)
+# use form data to create and save a new Tip (in post "/tips") X
+# create a tip.erb tempalte to display a tip X
+# find the most recent tip and give it to the template X
+
+
+General TODO
+# Figure out LAT LONG for boroughs as parameters
+# Instead of tip.last, it should be tip.latlong (find tip based on location)
+# User password - unnecessary?
+# Build out user.rb profile page based on mockups
